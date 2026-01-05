@@ -8,7 +8,7 @@ public class MergeIntervals {
             }
 
 
-            Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
+            Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
             List<int[]> result = new ArrayList<>();
 
