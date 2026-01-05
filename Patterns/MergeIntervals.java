@@ -9,6 +9,17 @@ public class MergeIntervals {
 
 
             Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+// What this means
+
+// a is an int[] (an interval)
+
+// a[0] is the start time
+
+// Comparator.comparingInt creates a comparator that:
+
+// Extracts a[0]
+
+// Compares intervals by that value
 
             List<int[]> result = new ArrayList<>();
 
