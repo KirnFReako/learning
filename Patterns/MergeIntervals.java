@@ -8,9 +8,9 @@ public class MergeIntervals {
             }
 
 
-<<<<<<< HEAD
+
             Arrays.sort(intervals,  Comparator.comparingInt(a -> a[0]));
-=======
+
             Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 // What this means
 
@@ -23,7 +23,7 @@ public class MergeIntervals {
 // Extracts a[0]
 
 // Compares intervals by that value
->>>>>>> 86801e34d48fac053569dcaa7bd5f7266d77f936
+
 
             List<int[]> result = new ArrayList<>();
 
