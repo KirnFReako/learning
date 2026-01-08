@@ -11,7 +11,7 @@ public class MergeIntervals {
 
             Arrays.sort(intervals,  Comparator.comparingInt(a -> a[0]));
 
-            Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+
 // What this means
 
 // a is an int[] (an interval)
