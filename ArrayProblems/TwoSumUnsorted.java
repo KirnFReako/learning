@@ -3,7 +3,7 @@ import java.util.*;
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class TwoSumUnsorted {
     public static int[] Twosum(int[] arr, int target){
 
         Map<Integer,Integer> mp = new HashMap<>();
