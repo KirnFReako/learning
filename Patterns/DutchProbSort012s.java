@@ -1,8 +1,7 @@
 package Patterns;
 
 public class DutchProbSort012s {
-    static void
-    sort012(int[] arr){
+    static void sort012(int[] arr){
         int low =0, mid=0, high = arr.length-1;
 
         while(mid<=high){
