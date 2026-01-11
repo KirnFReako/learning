@@ -7,10 +7,7 @@ public class MergeIntervals {
                 return new int[0][0];
             }
 
-
-
             Arrays.sort(intervals,  Comparator.comparingInt(a -> a[0]));
-
 
 // What this means
 

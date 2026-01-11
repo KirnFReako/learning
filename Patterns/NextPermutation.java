@@ -8,13 +8,13 @@ public class NextPermutation {
 
 
         int i = nums.length-2;
-        while( i >=0 && nums[i] >= nums[i+1]){
+        while( i >= 0 && nums[i] >= nums[i+1]){
             i--;
         }
 
         if(i>=0){
             int j = nums.length-1;
-            while(nums[j] >= nums[i]){
+            while(nums[j] <= nums[i]){
                 j--;
             }
             swap(nums,i,j);
@@ -35,7 +35,7 @@ public class NextPermutation {
     }
     public static void main(String[] args) {
         NextPermutation sol = new NextPermutation();
-        int[] nums = {1, 2, 3};
+        int[] nums = {1, 1,5,4,1};
         sol.nextPerm(nums);
         System.out.println(Arrays.toString(nums)); // Output: [1, 3, 2]
     }
